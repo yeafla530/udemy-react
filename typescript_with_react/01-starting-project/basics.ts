@@ -77,7 +77,7 @@ const demoArray = [1, 2, 3]
 const updatedArray = insertAtBeginning(demoArray, -1) // [-1, 1, 2, 3]
 const stringArray = insertAtBeginning<string>(['a', 'b', 'c'], 'd')
 // 문자열인지 숫자인지 알수 없다
-updatedArray[0].split('') // return number
+// updatedArray[0].split('') // return number
 stringArray[0].split('') // return string
 
 
